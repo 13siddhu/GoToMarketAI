@@ -225,7 +225,7 @@ export default function UnifiedLeadPlatform() {
                       <span>{progressMsg}</span>
                       <span>{Math.round(progressPercent)}%</span>
                     </div>
-                    <Progress value={progressPercent} className="h-2 bg-neutral-800" indicatorcolor="bg-blue-500" />
+                    <Progress value={progressPercent} className="h-2 bg-neutral-800" />
                   </div>
                 )}
               </CardContent>
